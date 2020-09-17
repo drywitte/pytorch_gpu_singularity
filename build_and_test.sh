@@ -19,5 +19,8 @@ singularity exec --nv ${IMAGE_NAME} python -c "import skimage; print('skimage ve
 # test pillow
 singularity exec --nv ${IMAGE_NAME} python -c "import PIL; print('PIL version: ' + PIL.__version__)"
 
+# test comet
+singularity exec --nv ${IMAGE_NAME} python -c "import comet_ml; print('Comet ML version: ' + comet_ml.__version__)"
+
 
 echo image: ${IMAGE_NAME}
