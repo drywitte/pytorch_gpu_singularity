@@ -25,3 +25,5 @@ conda install -c simpleitk simpleitk
 #pillow
 conda install -c anaconda pillow 
 
+#comet
+conda install -c comet_ml
