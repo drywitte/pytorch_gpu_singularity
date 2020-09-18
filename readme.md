@@ -30,7 +30,7 @@
 - pull singularity image from singularity hub
 
     ```bash
-    singularity pull --name pytorch_gpu.simg shub://yinglilu/pytorch_gpu_singularity:1.5.0
+    singularity pull --name pytorch_gpu.simg shub://drywitte/pytorch_singularity/1.0
     ```
 
 ## usage
