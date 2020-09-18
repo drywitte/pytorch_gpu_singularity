@@ -6,8 +6,8 @@ From: continuumio/anaconda3:2019.03
 export PATH=/opt/conda/bin:$PATH
 
 #update
-apt-get update
-apt-get install -y tree
+#apt-get update
+#apt-get install -y tree
 pip install --upgrade pip
 
 #pytorch
